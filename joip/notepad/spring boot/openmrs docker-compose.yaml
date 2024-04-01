@@ -1,0 +1,20 @@
+https://github.com/dotnet-architecture/eShopOnContainers/blob/dev/src/docker-compose.yml
+
+There are many docker files and other services that are used.
+Navigate into each service and findout 
+       * How is image built
+       * What are the dependencies 
+       *  What are volumes that are backed up
+       * Whoch port needs to be export 
+       * Touch Stack?
+
+
+
+
+
+version is string
+service -openmrs-referenceapplication
+
+*   How is image built:
+-----------------------
+

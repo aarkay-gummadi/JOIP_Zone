@@ -1,0 +1,6 @@
+Instruct ELSa ro find the nymver is pallendrome or not 
+123 => 321 # not a pallendrome 
+121 => 121 => pallendrome 
++ _ * % /
+> < >= <= ==
+n = 5

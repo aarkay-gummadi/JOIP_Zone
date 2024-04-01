@@ -1,0 +1,46 @@
+---
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+  name: openmrs
+  labels: 
+    app: openmrs-app 
+spec: 
+  minReadySeconds: 2seconds
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: openmrs
+  strategy: 
+    rollingUpdate:
+      maxSurge: 30%
+      maxUnavailable: 10%
+    type: RollingUpdate
+  template: 
+    metadata: 
+      name: openmrs-app
+      labels:  
+        app: openmrs
+    spec: 
+      containers: 
+        - image: ramyagaraga/openmrs:latest
+          name: openmrs-cont
+          ports: 
+            - containerPort: 8080
+              protocol: TCP
+
+---
+apiVersion: v1 
+kind: Service 
+metadata: 
+  name: openmrs-service 
+  labels: 
+    app: openmrs 
+spec: 
+  ports: 
+    - port: 35000
+      targetPort: 8080 
+      protocol: TCP
+  selector: 
+    app: openmrs
+  type: LoadBalancer

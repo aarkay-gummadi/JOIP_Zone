@@ -1,0 +1,4 @@
+kubeadm join 172.31.70.242:6443 --token 81oo8d.zkb2796k9ig89hy8 \
+        --discovery-token-ca-cert-hash sha256:c8bc9eaedd3fade17ad3b87d1c2a3effd25ea33ca52c6c04efd7daa789b30308 --cri-socket=unix:///var/run/cri-dockerd.sock
+
+kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16

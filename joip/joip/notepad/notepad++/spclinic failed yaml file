@@ -1,0 +1,16 @@
+---
+- name: springpetclinic 
+  hosts: all
+  become: yes
+  tasks:
+    - name: install java on ubuntu
+      ansible.builtin.apt:
+        name: openjdk-11-jdk
+        update_cache: yes 
+        state: present
+    - name: download springpetclinic file 
+      ansible.builtin.get_url:
+        url: https://referenceapplicationskhaja.s3.us-west-2.amazonaws.com/spring-petclinic-2.4.2.jar
+        dest: /opt/spring-petclinic-2.4.2.jar
+    - name: run the command directly
+      ansible.builtin.command: java -jar spring-petclinic-2.4.2.jar

@@ -1,0 +1,26 @@
+First login in to machine using instance creating on EC2 
+Install docker on that machine 
+```
+docker container run -p 8081:80 -it ubuntu:22.04 /bin/bash
+sudo apt update
+sudo apt install apache2 -y
+sudo apache2 start
+
+```
+browse for `http://ip addr :8081`
+
+
+
+
+
+
+And then relogin the machine 
+
+```
+docker container run -p 8082;80 -it ubuntu:22.04 /bin/bash
+apt update
+apt install nginx -y
+service nginx start
+
+```
+and browse for `http://ip addr :8082`

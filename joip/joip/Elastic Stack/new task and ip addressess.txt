@@ -1,0 +1,18 @@
+AWS->   postgresql to RDS
+AZURE->  Discovery and Assesment for linux vm to Azure migrate Migration to Azure Migrate
+
+
+install haproxy
+
+
+master:
+  public ip:157.175.145.233
+  private ip:172.31.6.53
+
+node1:
+  public ip:157.175.170.51
+  private ip:172.31.12.228
+
+node2:
+  public ip:15.185.82.81
+  private ip:172.31.14.230

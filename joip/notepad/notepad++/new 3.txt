@@ -1,0 +1,1 @@
+	https://github.com/docker-library/tomcat/blob/9cad4b1a880782d3504d7c8723fccc667965cf29/8.5/jdk8/corretto-al2/Dockerfile

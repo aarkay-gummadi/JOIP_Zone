@@ -1,0 +1,18 @@
+FROM ubuntu:22.04
+LABEL project="spring-petclinic"
+LABEL author="rajkumar"
+ARG user=raj
+ARG group=ubuntu
+ARG uid=1000
+ARG gid=1000
+RUN gtoupadd -g ${gid} ${group} && \
+    useradd -u ${uid} -g ${gid} -m -s /bin/bash ${user} && \
+    #echo $user ALL=\(root\) NOPASSWS:ALL > /etc/sudoers.d/$user && \
+    #chmod 0440 /etc/sudoers.d/$user
+RUN apt update && \
+    apt install openjdk-11-jdk -y && \
+    apt install wget -y && \
+    wget https://referenceapplicationskhaja.s3.us-west-2.amazonaws.com/spring-petclinic-2.4.2.jar
+USER ${user}
+EXPOSE 8080
+CMD [ "java" , "-jar" , "spring-petclinic-2,4,2.jar" ]         

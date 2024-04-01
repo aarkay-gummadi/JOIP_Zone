@@ -1,0 +1,24 @@
+    1  curl -fsSL https://get.docker.com -o get-docker.sh
+    2  sh get-docker.sh
+    3  sudo usermod -aG docker ubuntu
+    4  exit
+    5  docker container run hello-world
+    6  docker run -it ubuntu bash
+    7  docker container run hello-world
+    8  docker image ls
+    9  docker container run --help
+   10  docker container run --name hello-world ubuntu:22.04
+   11  docker container ls
+   12  docker container ls -all
+   13  dcoker stats
+   14  ps
+   15  ps aux
+   16  ipaddr
+   17  ip addr
+   18  ifconfig
+   19  if config
+   20  df -h
+   21  lsblk
+   22  whoami
+   23  hostname
+   24  history

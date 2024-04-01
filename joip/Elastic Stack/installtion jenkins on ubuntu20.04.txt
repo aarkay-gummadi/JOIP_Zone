@@ -1,0 +1,19 @@
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk -y
+wget https://updates.jenkins.io/download/war/2.385/jenkins.war
+sudo vi /lib/systemd/system/jenkins.service
+sudo systemctl start jenkins.service
+sudo systemctl status jenkins.service
+sudo systemctl enable jenkins.service
+
+
+[Unit]
+Descrption=Manage Java service jenkins
+
+[Service]
+Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64"
+WorkingDirectory=/home/ubuntu
+ExecStart=java -jar jenkins.war
+Type=simple
+Restart=on-failure
+RestartSec=10

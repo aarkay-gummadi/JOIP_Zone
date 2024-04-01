@@ -1,0 +1,21 @@
+FROM ubuntu:22.04 as build
+RUN apt update -y && \
+    apt install git -y && \
+    apt install openjdk-11-jdk -y && \
+    apt install maven -y 
+RUN git clone https://github.com/openmrs/openmrs-core.git
+WORKDIR /openmrs-core
+RUN mvn clean package
+
+
+FROM ubuntu:22.04
+RUN apt update && \
+    apt install openjdk-11-jdk -y wget -y
+RUN mkdir /opt/tomcat
+ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz /opt/tomcat
+WORKDIR /opt/tomcat
+RUN tar zxvf apache-tomcat-8.5.84.tar.gz
+WORKDIR /opt/tomcat/apache-tomcat-8.5.84
+COPY --from=build /openmrs-core/webapp/target/openmrs.war /opt/tomcat/apache-tomcat-8.5.84/webapp/openmrs.war
+EXPOSE 8080
+CMD ["/opt/tomcat/apache-tomcat-8.5.84/bin/catalina.sh", "run"]05:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-202205:42 PM 25-12-2022

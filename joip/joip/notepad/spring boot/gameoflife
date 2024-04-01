@@ -1,0 +1,20 @@
+FROM tomcat:8-jdk8
+ADD http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binaries/apache-maven-$MAVEN_VERSION-bin.tar.gz 
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://referenceapplicationskhaja.s3.us-west-2.amazonaws.com/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war

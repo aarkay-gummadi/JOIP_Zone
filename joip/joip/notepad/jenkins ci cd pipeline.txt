@@ -1,0 +1,13 @@
+awscli 
+kubectl
+docker 
+
+
+first 1: 
+stages:
+  git checkout
+  build image
+  code quity
+  quality gate
+  push image artifactory
+  scanning image

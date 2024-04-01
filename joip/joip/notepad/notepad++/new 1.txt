@@ -1,0 +1,9 @@
+curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && sudo usermod -aG docker ubuntu 
+
+
+wget -L "https://golang.org/dl/go${VERSION}.linux-${ARCH}.tar.gz 
+
+
+
+unix:///var/run/cri-dockerd.sock
+

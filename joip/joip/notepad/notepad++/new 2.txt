@@ -1,0 +1,1 @@
+ssh -i .\fordocker.pem ubuntu@44.202.236.11

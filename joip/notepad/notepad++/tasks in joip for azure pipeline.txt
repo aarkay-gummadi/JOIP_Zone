@@ -1,0 +1,12 @@
+1. Write manual steps to build spring petclinic and do this on any linux distribution
+
+2. Write manual steps to build a docker image   
+       install docker
+	   clone the code
+	   docker image build -t nop:1.0 .
+	   
+3. Try to create a skeleton
+       pipeline with 4 stages build_mac build_linux build_win build_unix
+       Each stage 5 steps 
+             each step print some number 
+            3.2 pipeline with only one job and 5 steps			 

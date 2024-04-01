@@ -1,0 +1,47 @@
+Programming Languages
+
+C
+C++
+java 
+C#
+nodejs
+python
+go
+
+three 
+     compiler  (C, C++, golang) => platform specific builds
+             make 
+     interpreter  nodejs, python etc deploy (code)
+     
+     hybrid  (Java, C#)
+        build => byte, il (jar, war, dll, exe)
+        interpeter (java/.net) 
+      java (ant, maven, gradle)
+      C# (msbuild, dotnet build)
+
+
+
+
+
+def add(a,b):
+   if a<0 and b<0:
+      return -1
+   return a+b
+
+
+def test_add():
+   assert.are_equalt(add(10,5),15,"result should be 15")
+  
+code analysis:
+   
+   best practices & security:
+     warning 
+     information
+     critical
+     recommendation
+
+     strict restrictions => Quality Gate
+
+    unit test:
+       code coverage report:
+          90% 

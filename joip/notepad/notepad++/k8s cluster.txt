@@ -1,0 +1,267 @@
+    1  sudo -i
+    2  sudo yum-config-manager --add-repo
+    3  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    4  sudo yum install docker-ce
+    5  docker --version 
+	
+	
+	
+	
+	kubeadm join 172.31.29.236:6443 --token vgayz6.8s26jnw247vjgqe6 \
+        --discovery-token-ca-cert-hash sha256:f2abf887b04fdbc88045233dcc9c4c7298d7504a347bd7db7e571bd4fca6d742 --cri-socket  unix:///var/run/cri-dockerd.sock 
+		
+		
+		
+		
+		
+Dell@DESKTOP-2PR5GPE MINGW64 ~/Downloads
+$ history
+    1  ssh 20.55.16.146
+    2  cd ~
+    3  cd Downloads/
+    4  sudo -i
+    5  cd
+    6  cd  C:\Users\Dell\.ssh
+    7  cdC:\Users\Dell\.ssh
+    8  cd C:\Users\Dell\.ssh
+    9  cd C:/Users/Dell/.ssh~
+   10  cd C:/Users/Dell/.ssh
+   11  ls
+   12  ssh-keygen
+   13  cat ./id_rsa.pub
+   14  ssh ubuntu@V
+   15  ssh ubuntu@200~54.164.30.171
+   16  ssh 20.55.16.146exit
+   17  cd ..
+   18  exit
+   19  cd
+   20  cd C:/Users/Dell/.ssh
+   21  ssh-keygen
+   22  ssh 20.55.16.146
+   23  clear
+   24  cd
+   25  cd C:/Users/Dell/.ssh
+   26  cat ./id-rsa.pub
+   27  ssh-keygen
+   28  ll
+   29  cat .\id_rsa.pub
+   30  ls
+   31  df -h
+   32  cat ./id_rsa.pub
+   33  ssh ubuntu@44.204.91.114
+   34  exit
+   35  cd
+   36  cd~
+   37  sudo -i
+   38  pwd
+   39  ssh -i "qr236.pem" ubuntu@ec2-18-204-230-230.compute-1.amazonaws.com
+   40  sudo -i
+   41  exit
+   42  ssh -i "qr236.pem" ubuntu@ec2-18-204-230-230.compute-1.amazonaws.com
+   43  cd ~
+   44  cd Downloads/
+   45  ssh -i "qr236.pem" ubuntu@ec2-18-204-230-230.compute-1.amazonaws.com
+   46  ssh -i "spring.pem" ubuntu@ec2-54-85-248-93.compute-1.amazonaws.com
+   47  exit
+   48  cd ~
+   49  cd .ssh
+   50  ssh ubuntu@3.92.231.48
+   51  cd ~
+   52  cd Downloads/
+   53  ssh -i "java.pem" ubuntu@ec2-52-72-230-202.compute-1.amazonaws.com
+   54  cd ..
+   55  cd Downloads/
+   56  ssh -i "java.pem" ubuntu@ec2-52-72-230-202.compute-1.amazonaws.com
+   57  exit
+   58  cd ~
+   59  cd Downloads/
+   60  ssh -i "java.pem" ubuntu@ec2-52-72-230-202.compute-1.amazonaws.com
+   61  ssh -i "java.pem" ubuntu@ec2-54-165-219-60.compute-1.amazonaws.com
+   62  ssh -i "java.pem" ubuntu@ec2-54-165-219-60.compute-1.amazonaws.com
+   63  exit
+   64  cd ~
+   65  cd down
+   66  cd .\Download\
+   67  clear
+   68  cd Downloads/
+   69  ssh -i "java1.pem" ubuntu@ec2-3-92-226-244.compute-1.amazonaws.com
+   70  exit
+   71  cd
+   72  cd
+   73  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   74  clear
+   75  cd ~
+   76  cd Downloads/
+   77  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   78  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   79  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   80  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   81  ssh ubuntu@44.203.177.95~
+   82  ssh ubuntu@44.203.177.95
+   83  clear
+   84  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   85  ssh -i "javaaat.pem" ubuntu@ec2-44-203-177-95.compute-1.amazonaws.com
+   86  exit
+   87  cd ~
+   88  cd Downloads/
+   89  ssh -i "efs.pem" ubuntu@ec2-44-201-191-155.compute-1.amazonaws.com
+   90  ssh -i "efs.pem" ubuntu@ec2-44-201-191-155.compute-1.amazonaws.com
+   91  sudo mkdir /tools
+   92  sudo mkdir /tools
+   93  mkdir /tools
+   94  cd
+   95  cd Downloads/
+   96  ssh -i "efs.pem" ubuntu@ec2-44-201-191-155.compute-1.amazonaws.com
+   97  ssh -i "efs.pem" ubuntu@ec2-44-201-191-155.compute-1.amazonaws.com
+   98  exit
+   99  cd
+  100  cd ~
+  101  cd Downloads/
+  102  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  103  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  104  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  105  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  106  ls
+  107  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  108  ls
+  109  clear
+  110  clear
+  111  ssh -i "tools.pem" ubuntu@ec2-54-235-2-29.compute-1.amazonaws.com
+  112  exit
+  113  cd ~
+  114  cd Downloads/
+  115  ssh -i "tools.pem" ubuntu@ec2-3-86-101-184.compute-1.amazonaws.com
+  116  ssh ubuntu@3.86.101.184
+  117  cd ~
+  118  cd Downloads/
+  119  ssh -i "efs.pem" ubuntu@ec2-34-207-94-188.compute-1.amazonaws.com
+  120  exit
+  121  cd ~
+  122  cd Downloads/
+  123  ssh -i "red1.pem" ec2-user@ec2-54-144-209-41.compute-1.amazonaws.com
+  124  ssh -i "red1.pem" ec2-user@ec2-54-144-209-41.compute-1.amazonaws.com
+  125  cd ~
+  126  cd Downloads/
+  127  ssh -i "tools.pem" ubuntu@ec2-54-221-66-24.compute-1.amazonaws.com
+  128  ssh ubuntu@3.91.201.204
+  129  ssh ubuntu@3.91.201.204
+  130  cd ~
+  131  cd Downloads/
+  132  ssh -i "remotemachine2.pem" ubuntu@ec2-54-197-23-24.compute-1.amazonaws.com
+  133  exit
+  134  cd ~
+  135  cd Downloads/
+  136  ssh -i "remotemachine2.pem" ubuntu@ec2-54-197-23-24.compute-1.amazonaws.com
+  137  cd ~
+  138  cd Downloads/
+  139  ssh -i "rr.pem" ubuntu@ec2-35-173-127-27.compute-1.amazonaws.com
+  140  ssh -i "remotemachine2.pem" ubuntu@ec2-54-197-23-24.compute-1.amazonaws.com
+  141  ssh -i "rr.pem" ubuntu@ec2-35-173-127-27.compute-1.amazonaws.com
+  142  ssh -i "rr.pem" ubuntu@ec2-35-173-127-27.compute-1.amazonaws.com
+  143  exit
+  144  cd ~
+  145  cd Downloads/
+  146  ssh -i "pract.pem" ubuntu@ec2-23-23-6-151.compute-1.amazonaws.com
+  147  exit
+  148  cd ~
+  149  cd Downloads/
+  150  ssh -i "pract.pem" ubuntu@ec2-54-174-107-35.compute-1.amazonaws.com
+  151  cd ~
+  152  cd Downloads/
+  153  choco -version
+  154  choco install git
+  155  cd ~
+  156  cd Downloads/
+  157  ssh -i "pract.pem" ubuntu@ec2-100-24-37-139.compute-1.amazonaws.com
+  158  cd ~
+  159  cd Downloads/
+  160  ssh -i "rajkumar.pem" ubuntu@ec2-54-85-148-156.compute-1.amazonaws.com
+  161  exit
+  162  cd ~
+  163  cd Downloads/
+  164  ssh -i "rajkumar.pem" ubuntu@ec2-52-91-211-180.compute-1.amazonaws.com
+  165  exit
+  166  cd ~
+  167  cd Downloads/
+  168  ssh -i "rajkumar.pem" ubuntu@ec2-54-85-148-156.compute-1.amazonaws.com
+  169  exut
+  170  exit
+  171  cd ~
+  172  cd Downloads/
+  173  ssh -i "rajkumar.pem" ubuntu@ec2-52-91-211-180.compute-1.amazonaws.com
+  174  exit
+  175  cd ~
+  176  cd Downloads/
+  177  ssh -i "rajkumar.pem" ubuntu@ec2-18-215-163-8.compute-1.amazonaws.com
+  178  exit
+  179  cd ~
+  180  cd Downloads/
+  181  ssh -i "rajkumar.pem" ubuntu@ec2-3-95-229-116.compute-1.amazonaws.com
+  182  ssh -i "rajkumar.pem" ubuntu@ec2-3-95-229-116.compute-1.amazonaws.com
+  183  ssh -i "rajkumar.pem" ubuntu@ec2-3-95-229-116.compute-1.amazonaws.com
+  184  Get-ExecutionPolic
+  185  Get-ExecutionPolic
+  186  Get-ExecutionPolicy
+  187  Get-ExecutionPolicy
+  188  cd ~
+  189  cd Downloads/
+  190  Get-ExecutionPolicy
+  191  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  192  choco --version
+  193  choco install vlc
+  194  clear
+  195  exit
+  196  cd ~
+  197  cd Downloads/
+  198  ssh -i "fordocker.pem" ubuntu@ec2-54-82-226-215.compute-1.amazonaws.com
+  199  ssh -i "fordocker.pem" ubuntu@ec2-54-82-226-215.compute-1.amazonaws.com
+  200  exit
+  201  cd ~
+  202  cd Downloads/
+  203  ssh -i "rajkumar.pem" ubuntu@ec2-35-173-186-195.compute-1.amazonaws.com
+  204  cd ~
+  205  cd Downloads/
+  206  ssh -i "rajkumar.pem" ec2-user@ec2-54-174-67-238.compute-1.amazonaws.com
+  207  dnf config-manager --add-
+  208  repo=https://download.docker.com/linux/centos/docker-ce.repo
+  209  dnf list docker-ce
+  210  ssh -i "rajkumar.pem" ec2-user@ec2-54-174-67-238.compute-1.amazonaws.com
+  211  exit
+  212  cd ~
+  213  cd Downloads/
+  214  ssh -i "fordocker.pem" ec2-user@ec2-3-82-109-10.compute-1.amazonaws.com~
+  215  ssh -i "fordocker.pem" ec2-user@ec2-3-82-109-10.compute-1.amazonaws.com
+  216  ssh -i "fordocker.pem" ec2-user@ec2-3-82-109-10.compute-1.amazonaws.com
+  217  ssh -i "fordocker.pem" ec2-user@ec2-3-82-109-10.compute-1.amazonaws.com
+  218  ssh -i "fordocker.pem" ec2-user@ec2-3-82-109-10.compute-1.amazonaws.com
+  219  exit
+  220  cd ~
+  221  ssh -i "rajkumar.pem" ec2-user@ec2-107-23-178-192.compute-1.amazonaws.com
+  222  cd Downloads/
+  223  ssh -i "rajkumar.pem" ec2-user@ec2-107-23-178-192.compute-1.amazonaws.com
+  224  ssh -i "rajkumar.pem" ec2-user@ec2-107-23-178-192.compute-1.amazonaws.com
+  225  ssh -i "rajkumar.pem" ec2-user@ec2-107-23-178-192.compute-1.amazonaws.com
+  226  exit
+  227  cd ~
+  228  cd Downloads/
+  229  ssh -i "nodes.pem" ubuntu@ec2-54-89-230-233.compute-1.amazonaws.com
+  230  exit
+  231  cd ~
+  232  cd Downloads/
+  233  ssh -i "k8s.pem" ubuntu@ec2-54-210-23-114.compute-1.amazonaws.com
+  234  ssh -i "k8s.pem" ubuntu@ec2-54-210-23-114.compute-1.amazonaws.com
+  235  exit
+  236  cd ~
+  237  cd Downloads/
+  238  ssh ubuntu@
+  239  54.146.155.71
+  240  ssh ubuntu@54.146.155.71
+  241  ssh -i "k8s.pem" ubuntu@ec2-54-146-155-71.compute-1.amazonaws.com
+  242  ssh -i "k8s.pem" ubuntu@ec2-3-80-108-208.compute-1.amazonaws.com
+  243  ssh -i "k8s.pem" ubuntu@ec2-54-146-155-71.compute-1.amazonaws.com
+  244  ssh -i "k8s.pem" ubuntu@ec2-54-146-155-71.compute-1.amazonaws.com
+  245  ssh -i "k8s.pem" ubuntu@ec2-3-80-108-208.compute-1.amazonaws.com
+  246  ssh -i "k8s.pem" ubuntu@ec2-54-146-155-71.compute-1.amazonaws.com
+  247  history
+
+
